@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=STEcoin
+Comment=STEcoin P2P Cryptocurrency
+Exec=satellite-qt %u
+Terminal=false
+Type=Application
+Icon=satellite128
+MimeType=x-scheme-handler/satellite;
+Categories=Office;Finance;
+Name[en_US]=satellite-qt.desktop

@@ -1,0 +1,26 @@
+[Unit]
+Description=SATELLITE's distributed currency daemon
+After=network.target
+
+[Service]
+User=satellite
+Group=satellite
+
+Type=forking
+PIDFile=/var/lib/satellited/satellited.pid
+
+ExecStart=/usr/bin/satellited -daemon -pid=/var/lib/satellited/satellited.pid \
+          -conf=/etc/satellite/satellite.conf -datadir=/var/lib/satellited
+
+ExecStop=-/usr/bin/satellite-cli -conf=/etc/satellite/satellite.conf \
+         -datadir=/var/lib/satellited stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

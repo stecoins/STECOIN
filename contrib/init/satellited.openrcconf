@@ -1,0 +1,26 @@
+# /etc/conf.d/satellited: config file for /etc/init.d/satellited
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/satellite/satellite.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/satellited"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/satellited.pid"
+
+# Where to write satellited data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/satellited"
+
+# User and group to own satellited process
+#BITCOIND_USER="satellite"
+#BITCOIND_GROUP="satellite"
+
+# Path to satellited executable
+#BITCOIND_BIN="/usr/bin/satellited"
+
+# Nice value to run satellited under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
