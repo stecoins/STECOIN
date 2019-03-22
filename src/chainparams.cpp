@@ -143,6 +143,11 @@ public:
 
 		vSeeds.push_back(CDNSSeedData("207.148.70.241", "207.148.70.241"));
 		vSeeds.push_back(CDNSSeedData("139.180.136.147", "139.180.136.147"));
+			vSeeds.push_back(CDNSSeedData("149.28.9.237", "149.28.9.237"));
+		vSeeds.push_back(CDNSSeedData("144.202.80.206", "144.202.80.206"));
+		vSeeds.push_back(CDNSSeedData("202.182.101.98", "202.182.101.98"));
+		vSeeds.push_back(CDNSSeedData("45.32.31.189", "45.32.31.189"));
+		 
 
 		// VENTURE addresses start with 'G'
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
