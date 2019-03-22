@@ -18,5 +18,5 @@ Masternode collateral : 3000
 
 ### Reward Distribution
  
-![alt text](http://139.180.213.129/MN.png)
+![alt text](http://139.180.213.129/MN1.png)
 
