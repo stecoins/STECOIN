@@ -1,4 +1,4 @@
- 
+
 Coin Ticker: SATELLITE COIN
 
 Coin Ticker: STE
@@ -17,6 +17,5 @@ Masternode collateral : 3000
  
 
 ### Reward Distribution
- 
-![alt text](http://139.180.213.129/STE_MN.png)
 
+![alt text](http://139.180.213.129/STE2.png)
